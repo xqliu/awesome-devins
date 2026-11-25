@@ -241,18 +241,18 @@ The key technologies used in the project include FastAPI, uvicorn, LiteLLM, Dock
 </details>
 
 ## [Orbi](https://github.com/orbi-build/orbi)
-AI GitHub App that turns issues into merged pull requests
+AI GitHub App that turns issues into tagged releases
 
 <details>
 
 ![Image](https://github.com/orbi-build.png?size=64)
 ### Category
-Coding, GitHub issues to pull requests
+Coding, GitHub issues to tagged releases
 
 ### Description
-- Open-source (AGPL-3.0, Python) coding agent delivered as a GitHub App: write a GitHub issue and Orbi plans the change, writes the code and opens a pull request.
-- Keeps working on the PR after it is opened: answers review comments and fixes failing CI until it is ready to merge.
-- Self-hostable, or use the hosted Orbi Cloud (first 3 merged pull requests free, no credit card needed).
+- Open-source (AGPL-3.0, Python) coding agent delivered as a GitHub App: write a GitHub issue and Orbi writes the code; a separate review session verifies it; Orbi merges and ships a tagged release.
+- A second session reviews the PR against the issue's acceptance criteria, fixes failures and reruns tests; reviewed code merges once CI passes on the latest base.
+- Self-hostable, or use the hosted Orbi Cloud (14-day free trial, no credit card needed).
 
 
 ### Links
